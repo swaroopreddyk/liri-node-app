@@ -1,0 +1,31 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaroopreddyk/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swaroopreddyk/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/swaroopreddyk/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "dotenv": "^6.1.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7"
+  }
+}
