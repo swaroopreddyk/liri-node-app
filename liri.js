@@ -105,6 +105,7 @@ const getBandsInfo = artist => {
   //  console.log(url)
   axios.get(url).then(response => {
     if (!response.data.length) {
+      status.stop()
       let errResp = `No concerts found!\n ${divider}`
       writeToLog(errResp)
       return console.log(errResp)

@@ -101,17 +101,18 @@ const getBandsInfo = artist => {
     //  console.log(url)
     axios.get(url).then(response => {
         if (!response.data.length) {
+            status.stop()
             let errResp = `No concerts found!\n ${divider}`
             writeToLog(errResp)
             return console.log(errResp)
         };
         let output =
-        "================================== LIRI FOUND THESE EVENTS FOR YOU...=================================="
-        
+            "================================== LIRI FOUND THESE EVENTS FOR YOU...=================================="
+
         response.data.forEach(event => {
             output += `\n${divider}\nVenue: ${event.venue.name} \nLocation: ${event.venue.city}, ${event.venue.region ? event.venue.region : event.venue.country} \nDate: ${moment(event.datetime).format("MM/DD/YYYY")}`
         });
-        
+
         status.stop()
         console.log(output)
         writeToLog(output)
