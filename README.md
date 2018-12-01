@@ -67,8 +67,10 @@ Type into the command line....
 4. Then run the following command to install the requied node packages  
 `node install`
 5. Look at the below GIF's on the execution details
-    * v1 (liri.js)
+    * v1 (liri.js)  
+    
     ![liri-execution-gif](./img/liri.gif)
 
-    * v2 (interactiveLIRI.js)  
+    * v2 (interactiveLIRI.js)
+
     ![interactive-liri-execution-gif](./img/interactiveLIRI.gif)  
