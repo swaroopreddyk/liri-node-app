@@ -65,7 +65,7 @@ Type into the command line....
     * OMDB_API="<--YOUR_KEY_HERE-->"
     * BANDS_API="<--YOUR_KEY_HERE-->"
 4. Then run the following command to install the requied node packages  
-`node install`
+`npm install`
 5. Look at the below GIF's on the execution details
     * v1 (liri.js)  
     
